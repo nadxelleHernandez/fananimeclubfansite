@@ -1,0 +1,40 @@
+body {
+    background: rgb(255,231,148);
+    background: linear-gradient(90deg, rgba(255,231,148,1) 0%, rgba(140,255,139,1) 43%, rgba(148,237,255,1) 89%);
+}
+
+header {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 26px;
+}
+
+#title-page {
+    margin-top: 75px;
+    margin-bottom: 0px;
+    color: rgb(2, 113, 31);
+}
+
+ul, li, a {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 0px;
+    color: rgb(2, 113, 31);
+}
+
+#first-paragragh::first-letter {
+    font-size: 26px;
+}
+
+#facts, p {
+    text-align: left;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 30px;
+}
+
+#facts {
+    font-family: fantasy;
+    font-size: 2rem;
+    color: black;
+}

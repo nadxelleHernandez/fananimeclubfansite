@@ -1,0 +1,45 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+header {
+    grid-column: 1 / 4;
+    grid-row: 1 / span 1;
+}
+
+h1 {
+    font-size: 4rem;
+    font-style: italic;
+    text-align: center;
+}
+
+nav {
+    display: block;
+    min-width: 100%;
+
+}
+
+div {
+    grid-row: 3 / 4;
+    grid-column: 1 / 4;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    border-radius: 10%;
+}
+
+footer {
+    grid-column: 1 / 4;
+    grid-row: 4 / span 1;
+    justify-self: center;
+}
+
+p {
+    font-weight: bold;
+}
